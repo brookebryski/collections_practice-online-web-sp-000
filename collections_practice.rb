@@ -36,7 +36,7 @@ end
 def sum_array(array)
   array.inject(0) { |result, element| result + element }
 end
-# end
+end
 
 def add_s(array)
   array.collect do |string|
@@ -45,4 +45,5 @@ def add_s(array)
     else
       string + "s"
   end
+end
 end
